@@ -30,5 +30,5 @@ cd ..
 cp ./student-submission/ListExamples.java grading-area 
 cp TestListExamples.java grading-area 
 
-javac -cp $CPATH1 grading-area/$requiredFile TestListExamples.java
-java -cp $CPATH2 org.junit.runner.JUnitCore TestListExamples
+javac -cp $CPATH1 ./grading-area/$requiredFile ./grading-area/TestListExamples.java
+java -cp $CPATH2 org.junit.runner.JUnitCore ./grading-area/TestListExamples
